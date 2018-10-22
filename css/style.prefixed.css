@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+}
+
+.template {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.button_add {
+  width: 100px;
+  margin: 10px;
+  background-color: green;
+}
+
+.button_sub {
+  width: 100px;
+  margin: 10px;
+  background-color: blueviolet;
+}
+
+span {
+  background-color: red;
+  padding: 5px 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.prefixed.css.map */

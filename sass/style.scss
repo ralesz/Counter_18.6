@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: blue;
+  }
+
+  .template {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button_add {
+      width:100px;
+      margin:10px;
+      background-color: green;
+  }
+
+  .button_sub {
+    width:100px;
+    margin:10px;
+    background-color: blueviolet;
+}
+
+  span {
+      background-color: red;
+      padding: 5px 30px;
+      text-align: center;
+      border: 1px solid black;
+      
+  }
+
+//   * {
+//     box-sizing: border-box;
+//   }
+  
+//   body {
+//     background-color: silver;
+//   }
+  
+//   .template_buttons {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//   }
+  
+//   .template_button h1 {
+//     color: grey;
+//     font-size: 30px;
+//     font-weight: 800;
+//     text-shadow: 3px 1px blue;
+//   }
+  
+//   .counter_buttons {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+  
+//   }
+  
+//   .counter_buttons button {
+//     width: 200px;
+//     height: 50px;
+//     font-size: 20px;
+//     font-weight: 600;
+//     color: navy;
+//     background-color: white;
+//     border-radius: 10px;
+//     margin: 15px;
+//   }
+  
+//    span {
+//      margin: 25px;
+//      font-size: 20px;
+//      font-weight: 600;
+//      color: red;
+//    }
